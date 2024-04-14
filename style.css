@@ -1,23 +1,67 @@
 header {
 	text-transform : uppercase;
-	background-color : #333333;
 	color: white;
 	font-weight : bold;
-	font-size : 150%;
+	font-size : 110%;
 	padding : 20px 0 20px 0;
-	height : 60px;
 	overflow: hidden;
 	position : relative;
+	margin: 0;
+	
 }
 
-header div {
-	position : relative;
+html,body{
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family : Arial;
+	font-size : 15px;
+	line-height : 150%;
+	margin : 0;
+	background: linear-gradient(to bottom, #fd185f, #fc6b47, #f9bb2a);
+	background-repeat: no-repeat;
+}
+nav{
+	margin:auto;
+	margin-top:-15px;
+}
+
+nav a{
+	background-color: rgb(255, 255, 255);
+	color: #0f0808;
+}
+article div {
 	text-align: center;
-	font-size: 40px;
+	padding: 30px;
+	font-size: 50px;
+	color: white;
+	font-weight:bold;
+	text-transform : uppercase;
+	
 }
+div br {
+	margin: 20px;
 
+}
+nav li{
+	list-style-type:none;
+	display:inline-block; 
+	line-height:300%;
+	margin-left:20px;
+	margin-right:20px;
+	
+}
+nav ul{
+	text-align:center;
+	background-color:#ffffff;
+	color:#0f0808;
+	
+
+}
 header div div {
-	top: 0px;
+	top: 20px;
 	width : 250px;
 	background-color : #888888;
 	font-size : 20px;
@@ -25,92 +69,23 @@ header div div {
 	box-sizing: border-box;
 }
 
-
-
-
-div {
-	width : 700px;
-	margin : auto;
+p {
+    text-align: center;
+    font-size: 25px;
+    word-spacing:5px;
 }
 
-footer a {
-	color : #888888;
+li {
+    list-style-type : square;
+	color: #ffffff;   
 }
 
+h1{
+	font-family : 'Gagalin';
+	text-align: center;
+	font-size: 60px;
+	color: #ffffff;
+}
 a:hover{
 	font-size: large;
-}
-
-body {
-	font-family : Arial;
-	font-size : 15px;
-	color : #333333;
-	line-height : 150%;
-	margin : 0;
-}
-
-h1, h2, h3 {
-	font-family : Trebuchet MS;
-}
-
-h1 {
-	font-size : 200%;
-	font-weight : bold;
-	text-transform : uppercase;
-	text-align : center;
-}
-
-h2 {
-	font-size : 150%;
-	font-weight : normal;
-	text-transform : uppercase;
-}
-
-h3 {
-	font-size : 115%;
-	font-weight : bold;
-}
-
-a {
-	color :white;
-	text-decoration : none;
-}
-ol li:first-child{
-	padding-top:10px;
-}
-
-img {
-	text-align: center;
-	height: 90%;
-	width: 90%;
-}
-
-ul {
-	list-style-type : square;
-}
-
-nav{
-	margin:auto;
-	margin-top:-15px;
-}
-
-nav a{
-	color:rgb(255, 255, 255);
-}
-
-nav a:hover{
-	color:white;
-}
- 
-nav li{
-	list-style-type:none;
-	display:inline-block; 
-	line-height:300%;
-	margin-left:20px;
-	margin-right:20px;
-}
-
-nav ul{
-	text-align:center;
-	background-color:#e13737;
 }

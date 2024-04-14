@@ -1,27 +1,27 @@
 header {
 	text-transform : uppercase;
-	background-color : #333333;
 	color: white;
 	font-weight : bold;
-	font-size : 150%;
+	font-size : 110%;
 	padding : 20px 0 20px 0;
-	height : 60px;
 	overflow: hidden;
 	position : relative;
+	margin: 0;
 	
 }
 
-footer {
-	background-color : #333333;
-	padding : 10px 0 10px 0
+html,body{
+	height: 100%;
+	margin: 0;
 }
 
 body {
 	font-family : Arial;
 	font-size : 15px;
-	color : #333333;
 	line-height : 150%;
 	margin : 0;
+	background: linear-gradient(to bottom, #fd185f, #fc6b47, #f9bb2a);
+	background-repeat: no-repeat;
 }
 nav{
 	margin:auto;
@@ -29,11 +29,21 @@ nav{
 }
 
 nav a{
-	color:rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
+	color: #0f0808;
 }
-div {
-	width : 700px;
-	margin : auto;
+article div {
+	text-align: center;
+	padding: 30px;
+	font-size: 50px;
+	color: white;
+	font-weight:bold;
+	text-transform : uppercase;
+	
+}
+div br {
+	margin: 20px;
+
 }
 nav li{
 	list-style-type:none;
@@ -41,10 +51,14 @@ nav li{
 	line-height:300%;
 	margin-left:20px;
 	margin-right:20px;
+	
 }
 nav ul{
 	text-align:center;
-	background-color:#e13737;
+	background-color:#ffffff;
+	color:#0f0808;
+	
+
 }
 header div div {
 	top: 20px;
@@ -55,30 +69,23 @@ header div div {
 	box-sizing: border-box;
 }
 
-header div {
-	position : relative;
-	text-align: center;
-	font-size: 40px;
-}
-
 p {
     text-align: center;
     font-size: 25px;
     word-spacing:5px;
+}
 
-}
-a:hover{
-	font-size: large;
-}
 li {
     list-style-type : square;
-    
+	color: #ffffff;   
 }
+
 h1{
 	font-family : 'Gagalin';
 	text-align: center;
 	font-size: 60px;
+	color: #ffffff;
 }
-h2{
-
+a:hover{
+	font-size: large;
 }
