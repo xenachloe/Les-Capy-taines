@@ -110,3 +110,43 @@ footer a{
 	margin-left: 1100px;
 	color: #0f0808;
 }
+
+@media only screen and (max-width: 600px) {
+    /* Tu peux ajuster la valeur de 600px en fonction de tes besoins */
+
+    nav {
+        margin-top: 0; /* Réinitialiser la marge */
+    }
+
+    nav li {
+        display: block; /* Afficher les éléments de la liste verticalement */
+        margin: 0 auto; /* Centrer les éléments */
+        line-height: normal; /* Réinitialiser la hauteur de ligne */
+    }
+
+    header {
+        padding: 10px 0; /* Réduire le rembourrage */
+    }
+
+    .liste {
+        padding-top: 20px; /* Réduire l'espacement en haut de la liste */
+    }
+
+    .liste li {
+        margin: 5px 0; /* Réduire la marge entre les éléments de la liste */
+    }
+
+    h1 {
+        font-size: 60px; /* Réduire la taille de la police */
+    }
+
+    footer {
+        margin-top: 20px; /* Réduire la marge supérieure */
+    }
+
+    footer a {
+        margin-left: 0; /* Réinitialiser la marge */
+        display: block; /* Afficher le lien en bloc */
+        text-align: center; /* Centrer le texte */
+    }
+}
