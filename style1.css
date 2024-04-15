@@ -23,6 +23,7 @@ body {
 	background-repeat: no-repeat;
 	min-height: 100vh;
 }
+
 nav{
 	margin:auto;
 	margin-top:-15px;
@@ -99,4 +100,13 @@ h1{
 }
 a:hover{
 	font-size: large;
+}
+footer{
+	margin-top: 40px;
+	background-color: #ffffff;
+	height: 30px;
+}
+footer a{
+	margin-left: 1100px;
+	color: #0f0808;
 }

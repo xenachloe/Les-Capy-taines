@@ -98,3 +98,13 @@ a:hover{
     display: inline-block;
     vertical-align: middle; 
 }
+
+footer{
+	margin-top: 40px;
+	background-color: #ffffff;
+	height: 30px;
+}
+footer a{
+	margin-left: 1100px;
+	color: #0f0808;
+}

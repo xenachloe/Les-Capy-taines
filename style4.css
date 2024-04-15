@@ -107,3 +107,13 @@ h2{
 	text-align: center;
 	font-size: 30px;
 }
+
+footer{
+	margin-top: 40px;
+	background-color: #ffffff;
+	height: 30px;
+}
+footer a{
+	margin-left: 1100px;
+	color: #0f0808;
+}

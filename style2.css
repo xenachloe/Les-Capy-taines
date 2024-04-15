@@ -100,3 +100,13 @@ h1{
 a:hover{
 	font-size: large;
 }
+
+footer{
+	margin-top: 40px;
+	background-color: #ffffff;
+	height: 30px;
+}
+footer a{
+	margin-left: 1100px;
+	color: #0f0808;
+}
