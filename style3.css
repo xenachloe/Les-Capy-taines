@@ -89,3 +89,12 @@ h1{
 a:hover{
 	font-size: large;
 }
+
+.video-container {
+    text-align: center; 
+}
+
+.video-container video {
+    display: inline-block;
+    vertical-align: middle; 
+}
