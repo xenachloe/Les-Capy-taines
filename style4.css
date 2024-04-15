@@ -5,14 +5,13 @@ header {
 	font-size : 110%;
 	padding : 20px 0 20px 0;
 	overflow: hidden;
-	position : relative;
 	margin: 0;
 	
 }
 
 html,body{
-	height: 100%;
 	margin: 0;
+	height: auto;
 }
 
 body {
@@ -22,6 +21,7 @@ body {
 	margin : 0;
 	background: linear-gradient(to bottom, #fd185f, #fc6b47, #f9bb2a);
 	background-repeat: no-repeat;
+	min-height: 100vh;
 }
 nav{
 	margin:auto;
@@ -88,4 +88,22 @@ h1{
 }
 a:hover{
 	font-size: large;
+}
+
+img{
+	height: 100px;
+	width: 100px;
+	margin: 80px;
+	text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+h2{
+	color: #ffffff;
+	font-family : 'Gagalin';
+	text-align: center;
+	font-size: 30px;
 }

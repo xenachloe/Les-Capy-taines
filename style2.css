@@ -5,14 +5,13 @@ header {
 	font-size : 110%;
 	padding : 20px 0 20px 0;
 	overflow: hidden;
-	position : relative;
 	margin: 0;
 	
 }
 
 html,body{
-	height: 100%;
 	margin: 0;
+	height: auto;
 }
 
 body {
@@ -22,6 +21,7 @@ body {
 	margin : 0;
 	background: linear-gradient(to bottom, #fd185f, #fc6b47, #f9bb2a);
 	background-repeat: no-repeat;
+	min-height: 100vh;
 }
 nav{
 	margin:auto;
@@ -34,8 +34,8 @@ nav a{
 }
 article div {
 	text-align: center;
-	padding: 30px;
-	font-size: 50px;
+	padding: 50px;
+	font-size: 70px;
 	color: white;
 	font-weight:bold;
 	text-transform : uppercase;
@@ -77,13 +77,24 @@ p {
 
 li {
     list-style-type : square;
-	color: #ffffff;   
+	color: #ffffff;  
+
 }
 
+.liste{
+	list-style-type : square;
+	color: #ffffff; 
+	font-size: 30px;
+	padding-top: 50px;
+
+}
+.liste li{
+	margin: 10px;
+}
 h1{
 	font-family : 'Gagalin';
 	text-align: center;
-	font-size: 60px;
+	font-size: 70px;
 	color: #ffffff;
 }
 a:hover{
